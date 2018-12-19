@@ -36,6 +36,12 @@ a {
   font-size: 18px;
   text-decoration: none;
   margin: 0 20px;
+
+  border-bottom: 2px solid transparent;
+}
+
+a:hover {
+  border-bottom: 2px solid #ffffff;
 }
 
 p {
@@ -64,4 +70,37 @@ main {
 
 img {
   margin: 40px 8px;
+}
+
+footer {
+  text-transform: uppercase;
+  padding: 0 20px;
+  background-color: #0d2c40;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0.8em;
+  font-weight: 500;
+  font-family: "Raleway", sans-serif;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  content: " ";
+  clear: both;
+  height: 0;
+  font-size: 0;
+}
+
+.copyright {
+  float: left;
+}
+
+.message {
+  float: right;
+}
+
+.name {
+  color: #f15b31;
+  font-weight: 700;
 }
