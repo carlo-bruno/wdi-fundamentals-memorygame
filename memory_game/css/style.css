@@ -1,6 +1,9 @@
 body {
   text-align: center;
+  margin: 0;
 }
+
+/* Typography ------------------------------------------ */
 
 h1,
 h2,
@@ -14,6 +17,7 @@ h1 {
   letter-spacing: 1px;
   font-weight: 400;
   font-size: 45px;
+  margin: 0;
 }
 
 h2 {
@@ -26,15 +30,38 @@ h2 {
 
 a {
   font-family: "Raleway", sans-serif;
-  color: #f15b31;
+  color: #ffffff;
   letter-spacing: 1px;
   font-weight: 400;
   font-size: 18px;
   text-decoration: none;
+  margin: 0 20px;
 }
 
 p {
   font-family: "Droid Serif", serif;
   line-height: 26px;
   font-size: 18px;
+}
+
+/* Layout ---------------------------------------------- */
+header {
+  background-color: #f15b31;
+  color: #ffffff;
+  padding: 30px 20px;
+}
+
+nav {
+  background-color: #00a6b3;
+  color: #ffffff;
+  padding: 20px 0;
+}
+
+main {
+  width: 850px;
+  margin: 35px auto;
+}
+
+img {
+  margin: 40px 8px;
 }
