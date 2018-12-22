@@ -1,6 +1,7 @@
 body {
   text-align: center;
   margin: 0;
+  width: 100%;
 }
 
 /* Typography ------------------------------------------ */
@@ -74,30 +75,38 @@ img {
 
 footer {
   text-transform: uppercase;
-  padding: 0 20px;
+  padding: 8px 20px;
   background-color: #0d2c40;
   color: #ffffff;
   font-size: 14px;
   letter-spacing: 0.8em;
   font-weight: 500;
   font-family: "Raleway", sans-serif;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  overflow: hidden;
 }
 
-.clearfix:after {
+/* .clearfix:after {
   visibility: hidden;
   display: block;
   content: " ";
   clear: both;
   height: 0;
   font-size: 0;
-}
+} */
 
 .copyright {
-  float: left;
-}
-
-.message {
-  float: right;
+  margin-right: auto;
+  margin-left: 50px;
 }
 
 .name {
